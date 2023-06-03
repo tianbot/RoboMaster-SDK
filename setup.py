@@ -46,10 +46,9 @@ setup(
       'robomaster': ['LICENSE.txt', 'README.md']
     },
     install_requires=[
-        'numpy >= 1.18',
-        'opencv-python >= 4.2',
-        'netaddr >= 0.8',
-        'netifaces >= 0.10',
-        'myqr >= 2.3'
+        'opencv-python ~= 4.2.0',
+        'netaddr ~= 0.8',
+        'netifaces ~= 0.10',
+        'myqr ~= 2.3',
     ]
 )
